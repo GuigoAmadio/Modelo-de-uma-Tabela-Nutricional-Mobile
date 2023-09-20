@@ -1,0 +1,329 @@
+:root {
+  --texts-color: #242424;
+  --color-retangulo: #3bab1e;
+  --color-retangulo-fraco: #b1dda5;
+}
+
+body * {
+  font-family: Poppins;
+  color: var(--texts-color);
+}
+
+body {
+  background-color: #d8eed2;
+}
+
+#Main {
+  position: relative;
+}
+
+.blur {
+  filter: blur(3px);
+}
+
+#buttontop {
+  display: flex;
+  width: 360px;
+  background: #d8eed2;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.buttonstop {
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+  border-radius: 80px;
+  background: #d8eed2;
+  box-shadow: 0px 8px 16px 0px rgba(59, 171, 30, 0.25);
+  border: none;
+}
+
+.ou {
+  background-image: url(./Midia/arrow-left.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.oi {
+  background-image: url(./Midia/arrow-left.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-left: solid #242424 1px;
+  border-top: solid #242424 1px;
+  border-bottom: solid #242424 1px;
+}
+
+.oe {
+  background-image: url(./Midia/heart.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ous {
+  background-image: url(./Midia/heart-filled.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#Info {
+  display: flex;
+  height: 696px;
+  width: 360px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  background-color: #fdfdfd;
+  border-radius: 32px 32px 0px 0px;
+  background: white;
+  margin: 64px auto 0px;
+  overflow: hidden;
+  position: relative;
+}
+
+img {
+  display: flex;
+  width: 280px;
+  height: 280px;
+  margin-top: -7vh;
+  position: fixed;
+}
+
+#Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 240px 32px 32px 32px;
+}
+
+#name-plate {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: Poppins;
+  line-height: 32px;
+}
+
+.first {
+  display: flex;
+  width: 296px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 16px;
+  background: var(--color-retangulo);
+  box-shadow: 0px 8px 24px 0px rgba(59, 171, 30, 0.25);
+  border: none;
+  cursor: pointer;
+}
+
+.first {
+  color: white;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#energia-porção {
+  display: flex;
+  padding: 8px 0px;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+  width: 296px;
+  height: 64px;
+}
+
+ul1 {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  padding-left: 0;
+}
+
+p {
+  margin: 0;
+  color: var(--texts-color);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+p1 {
+  color: var(--texts-color);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+#grafico {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+}
+
+.proteina {
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.proteina .nutriente {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.proteina .nutriente div1 {
+  color: var(--texts-color);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.proteina .nutriente div {
+  color: var(--texts-color);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.proteina .retangulo {
+  display: flex;
+  align-self: stretch;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.proteina .retangulo div {
+  height: 8px;
+  width: 100%;
+  border-radius: 80px;
+  background: var(--color-retangulo);
+}
+
+.proteina .retangulo div1 {
+  height: 8px;
+  width: 100%;
+  border-radius: 80px;
+  background: var(--color-retangulo-fraco);
+}
+
+#informacoes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 360px;
+  padding: 16px 32px 32px 32px;
+  gap: 16px;
+  border-radius: 32px 32px 0px 0px;
+  background: white;
+  box-shadow: 0px -8px 40px 0px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.slide-in {
+  animation: slide-in 0.5s forwards;
+  -webkit-animation: slide-in 0.5s forwards;
+  -o-animation: slide-in 0.5s forwards;
+}
+
+.slide-out {
+  animation: slide-out 0.5s forwards;
+  -webkit-animation: slide-out 0.5s forwards;
+  -o-animation: slide-out 0.5s forwards;
+}
+
+.second {
+  display: flex;
+  border: none;
+  width: 80px;
+  height: 20px;
+  border-radius: 80px;
+  background: var(--color-retangulo-fraco);
+  justify-content: center;
+  align-items: center;
+  color: var(--texts-color);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.titulo {
+  color: var(--texts-color);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.valores {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  gap: 20px;
+}
+
+.valores ul {
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: flex-start;
+  margin: 0;
+  padding-left: 0;
+}
+
+p3 {
+  margin: 0;
+  color: var(--texts-color);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  padding-left: 16px;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes slide-out {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
